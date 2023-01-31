@@ -1,0 +1,20 @@
+.triller{
+    background-image: url(../img/triller-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.triller_button-watch {
+    width: 260px;
+    height: 80px;
+    left: 551px;
+    top: 1358px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    font-size: 24px;
+    color: #26C7EA;
+    margin-top: 310px;
+    margin-left: 40%;
+    @extend %handlandone;
+}
