@@ -1,0 +1,97 @@
+.symbols {
+    background-image: url(../img/symbols-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+}
+.symbols_logo {
+    font-size: 32px;
+    padding-top: 32px;
+    text-align: center;
+    margin-bottom: 45px;
+    @extend %handlandone;
+}
+.symbols_list {
+    display: flex;
+    gap: 36px;
+}
+.translater-1 {
+    margin-left: 70px;
+}
+.translater-1_item {
+    background-color: $tranclater-background-color;
+    width: 320px;
+    height: 240px;
+    text-align: center;
+    text-align: center;
+    &:last-child {
+        margin-top: 24px;
+    }
+}
+.translater-1_link-1 {
+    font-size: 24px;
+    padding-top: 36px;
+    @extend %handlandone;
+}
+.translater-1_img {
+    width: 152px;
+    height: 40px;
+    margin-top: 40px;
+}
+.translater-1_link-2 {
+    font-size: 24px;
+    margin-top: 40px;
+    @extend %handlandone;
+}
+
+.translater-2_item {
+    background-color: $tranclater-background-color;
+    width: 320px;
+    height: 240px;
+    text-align: center;
+    text-align: center;
+    &:last-child {
+        margin-top: 24px;
+    }
+}
+.translater-2_link-1 {
+    font-size: 24px;
+    padding-top: 36px;
+    @extend %handlandone;
+}
+.translater-2_img {
+    width: 152px;
+    height: 40px;
+    margin-top: 40px;
+}
+.translater-2_link-2 {
+    font-size: 24px;
+    margin-top: 40px;
+    @extend %handlandone;
+}
+
+.translater-3_item {
+    background-color: $tranclater-background-color;
+    width: 320px;
+    height: 240px;
+    text-align: center;
+    text-align: center;
+    &:last-child {
+        margin-top: 24px;
+    }
+}
+.translater-3_link-1 {
+    font-size: 24px;
+    padding-top: 36px;
+    @extend %handlandone;
+}
+.translater-3_img {
+    width: 152px;
+    height: 40px;
+    margin-top: 40px;
+}
+.translater-3_link-2 {
+    font-size: 24px;
+    margin-top: 40px;
+    @extend %handlandone;
+}
