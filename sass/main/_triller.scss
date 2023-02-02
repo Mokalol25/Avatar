@@ -17,4 +17,9 @@
     margin-top: 310px;
     margin-left: 40%;
     @extend %handlandone;
+    transition: transform 500ms;
+    transform: scale(1, 1);
+    &:hover {
+        transform: scale(1.5, 1.5);
+    }
 }

@@ -104,6 +104,17 @@ header {
   border-radius: 45px 0px;
   font-size: 24px;
   color: #26C7EA;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.header_join-to-clan:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .header_avatar-background .header_avatar {
@@ -213,18 +224,36 @@ input:checked + .slider:before {
   fill: #fff;
   top: 224px;
   right: 164px;
+  -webkit-transition: fill 500ms;
+  transition: fill 500ms;
+}
+
+.service_link-inst:hover {
+  fill: #26C7EA;
 }
 
 .service_link-twit {
   fill: #fff;
   top: 278px;
   right: 164.83px;
+  -webkit-transition: fill 500ms;
+  transition: fill 500ms;
+}
+
+.service_link-twit:hover {
+  fill: #26C7EA;
 }
 
 .service_link-yout {
   fill: #fff;
   top: 335px;
   right: 164px;
+  -webkit-transition: fill 500ms;
+  transition: fill 500ms;
+}
+
+.service_link-yout:hover {
+  fill: #26C7EA;
 }
 
 .in-script-1 {
@@ -237,6 +266,17 @@ input:checked + .slider:before {
 
 .in-script-1_logo {
   font-size: 36px;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+.in-script-1_logo:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .in-script-1_jake {
@@ -247,6 +287,17 @@ input:checked + .slider:before {
 .in-script-1_img {
   margin-top: 8px;
   margin-bottom: 10px;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+.in-script-1_img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .triller {
@@ -268,6 +319,17 @@ input:checked + .slider:before {
   color: #26C7EA;
   margin-top: 310px;
   margin-left: 40%;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.triller_button-watch:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 .in-script-2 {
@@ -280,6 +342,17 @@ input:checked + .slider:before {
 .in-script-2_logo {
   margin-top: 75px;
   font-size: 36px;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+.in-script-2_logo:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .in-script-2_jake {
@@ -290,6 +363,17 @@ input:checked + .slider:before {
 .in-script-2_img {
   margin-top: 8px;
   margin-bottom: 10px;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+.in-script-2_img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .symbols {
@@ -323,10 +407,21 @@ input:checked + .slider:before {
   height: 240px;
   text-align: center;
   text-align: center;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 .translater-1_item:last-child {
   margin-top: 24px;
+}
+
+.translater-1_item:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .translater-1_link-1 {
@@ -351,10 +446,21 @@ input:checked + .slider:before {
   height: 240px;
   text-align: center;
   text-align: center;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 .translater-2_item:last-child {
   margin-top: 24px;
+}
+
+.translater-2_item:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .translater-2_link-1 {
@@ -379,10 +485,21 @@ input:checked + .slider:before {
   height: 240px;
   text-align: center;
   text-align: center;
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
 }
 
 .translater-3_item:last-child {
   margin-top: 24px;
+}
+
+.translater-3_item:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .translater-3_link-1 {
@@ -411,6 +528,17 @@ input:checked + .slider:before {
 .in-script-3_logo {
   font-size: 36px;
   margin-top: 75px;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+.in-script-3_logo:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .in-script-3_naitiri {
@@ -420,6 +548,17 @@ input:checked + .slider:before {
 
 .in-script-3_img {
   margin-top: 8px;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+.in-script-3_img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
 }
 
 .in-script-3_img-down {

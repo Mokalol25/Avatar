@@ -6,6 +6,11 @@
 .in-script-1_logo {
     font-size: 36px;
     @extend %inter;
+    transform: scale(1, 1);
+    transition: transform 500ms;
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
 }
 .in-script-1_jake {
     margin-top: 16px;
@@ -15,4 +20,9 @@
 .in-script-1_img {
     margin-top: 8px;
     margin-bottom: 10px;
+    transform: scale(1, 1);
+    transition: transform 500ms;
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
 }

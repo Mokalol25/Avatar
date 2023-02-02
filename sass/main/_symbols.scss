@@ -27,6 +27,11 @@
     &:last-child {
         margin-top: 24px;
     }
+    transition: transform 500ms;
+    transform: scale(1,1);
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
 }
 .translater-1_link-1 {
     font-size: 24px;
@@ -53,6 +58,11 @@
     &:last-child {
         margin-top: 24px;
     }
+    transition: transform 500ms;
+    transform: scale(1,1);
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
 }
 .translater-2_link-1 {
     font-size: 24px;
@@ -78,6 +88,11 @@
     text-align: center;
     &:last-child {
         margin-top: 24px;
+    }
+    transition: transform 500ms;
+    transform: scale(1,1);
+    &:hover {
+        transform: scale(1.2, 1.2);
     }
 }
 .translater-3_link-1 {

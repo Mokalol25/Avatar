@@ -36,6 +36,11 @@ header {
     font-size: 24px;
     color: #26C7EA;
     @extend %inter;
+    transition: transform 500ms;
+    transform: scale(1,1);
+    &:hover {
+        transform: scale(1.2, 1.2);
+    }
 }
 .header_avatar-background .header_avatar {
     position: relative;
@@ -136,14 +141,26 @@ input:checked + .slider:before {
     fill: $program-links-color;
     top: 224px;
     right: 164px;
+    transition: fill 500ms;
+    &:hover {
+        fill: #26C7EA;
+    }
 }
 .service_link-twit {
     fill: $program-links-color;
     top: 278px;
     right: 164.83px;
+    transition: fill 500ms;
+    &:hover {
+        fill: #26C7EA;
+    }
 }
 .service_link-yout {
     fill: $program-links-color;
     top: 335px;
     right: 164px;
+    transition: fill 500ms;
+    &:hover {
+        fill: #26C7EA;
+    }
 }

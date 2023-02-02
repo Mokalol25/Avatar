@@ -30,7 +30,7 @@
                         <br> щоб стати частиною Народу.
                         <br> Борись разом з нами!
                     </p>
-                    <button class="header_join-to-clan">Приєднатися до <br>клану</button>
+                    <button class="header_join-to-clan" type="button" data-open-modal>Приєднатися до <br>клану</button>
                     <img src="./img/avatar.png" alt="" class="header_avatar">
 
 
@@ -92,7 +92,7 @@
         <!--triller-->
         <section class="triller">
             <div class="container">
-                <button class="triller_button-watch">Дивитись трейлер</button>
+                <button class="triller_button-watch" type="button">Дивитись трейлер</button>
             </div>
         </section>
 
@@ -198,25 +198,27 @@
         <!-- join -->
         <section class="join">
             <div class="container">
-                <button class="join_close">
-                    <svg class="join_close-svg">
-                        <use href="./img/close-button.svg#icon-close"></use>
-                    </svg>
-                </button>
-                <img src="./img/join-background.png" alt="" class="join_img">
-                <ul class="join_list">
-                    <li class="join_item">
-                        <label for="name" class="join_label">Ім'я</label>
-                        <br>
-                        <input type="text" id="name" class="join_input">
-                    </li>
-                    <li class="join_item">
-                        <label for="email" class="join_label">Email</label>
-                        <br>
-                        <input type="text" id="email" class="join_input">
-                    </li>
-                </ul>
-                <button class="join_button">Приєднуйтесь до клану</button>
+                <div class="backdrop" data-backdrop>
+                    <button class="join_close" type="button" data-close-modal>
+                        <svg class="join_close-svg">
+                            <use href="./img/close-button.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                    <img src="./img/join-background.png" alt="" class="join_img">
+                    <ul class="join_list">
+                        <li class="join_item">
+                            <label for="name" class="join_label">Ім'я</label>
+                            <br>
+                            <input type="text" id="name" class="join_input">
+                        </li>
+                        <li class="join_item">
+                            <label for="email" class="join_label">Email</label>
+                            <br>
+                            <input type="text" id="email" class="join_input">
+                        </li>
+                    </ul>
+                    <button class="join_button">Приєднуйтесь до клану</button>
+                </div>
             </div>
         </section>
     </main>
@@ -225,7 +227,7 @@
     <!-- footer -->
     <footer class="footer">
         <div class="container">
-            <button class="footer_close">
+            <button class="footer_close" type="button">
                     <svg class="footer_close-svg">
                         <use href="./img/close-button.svg#icon-close"></use>
                     </svg>
@@ -237,5 +239,8 @@
             </p>
         </div>
     </footer>
+
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
