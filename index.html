@@ -74,6 +74,53 @@
                 
         </div>
         
+
+        <!-- join -->
+        <section class="join">
+            <div class="container">
+                <div class="backdrop is-hidden" data-backdrop>
+                    <form class="join_modal">
+                    <button class="join_close" type="button" data-close-modal>
+                        <svg class="join_close-svg">
+                            <use href="./img/close-button.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                    <ul class="join_list">
+                        <li class="join_item">
+                            <label for="name" class="join_label">Ім'я</label>
+                            <br>
+                            <input type="text" id="name" class="join_input">
+                        </li>
+                        <li class="join_item">
+                            <label for="email" class="join_label">Email</label>
+                            <br>
+                            <input type="text" id="email" class="join_input">
+                        </li>
+                    </ul>
+                    <button class="join_button" data-open-modal-welcome>Приєднуйтесь до клану</button>
+                </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="welcome">
+            <div class="container">
+                <div class="backdrop is-hidden" data-backdrop-welcome>
+                    <form class="welcome_modal">
+                        <button class="welcome_close" type="button" data-close-modal-welcome>
+                            <svg class="welcome_close-svg">
+                                <use href="./img/close-button.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        <img src="./img/footer.png" alt="" class="welcome_img">
+                        <h3 class="welcome_logo">Вітаємо у нашому клані</h3>
+                        <p class="welcome_text">Твій Банші вже в дорозі.
+                            <br> Скоро побачимось на Пандорі.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
     </header>
 
     <!-- main -->
@@ -190,57 +237,23 @@
                 </h3>
                 <p class="in-script-3_naitiri">Нейтірі</p>
                 <img src="./img/2_arrows_and_bird.png" alt="" class="in-script-3_img">
-                <img src="./img/in-script-3.png" alt="" class="in-script-3_img-down">
             </div>
         </section>
 
-
-        <!-- join -->
-        <section class="join">
-            <div class="container">
-                <div class="backdrop" data-backdrop>
-                    <button class="join_close" type="button" data-close-modal>
-                        <svg class="join_close-svg">
-                            <use href="./img/close-button.svg#icon-close"></use>
-                        </svg>
-                    </button>
-                    <img src="./img/join-background.png" alt="" class="join_img">
-                    <ul class="join_list">
-                        <li class="join_item">
-                            <label for="name" class="join_label">Ім'я</label>
-                            <br>
-                            <input type="text" id="name" class="join_input">
-                        </li>
-                        <li class="join_item">
-                            <label for="email" class="join_label">Email</label>
-                            <br>
-                            <input type="text" id="email" class="join_input">
-                        </li>
-                    </ul>
-                    <button class="join_button">Приєднуйтесь до клану</button>
-                </div>
-            </div>
-        </section>
     </main>
 
 
     <!-- footer -->
     <footer class="footer">
-        <div class="container">
-            <button class="footer_close" type="button">
-                    <svg class="footer_close-svg">
-                        <use href="./img/close-button.svg#icon-close"></use>
-                    </svg>
-                </button>
-            <img src="./img/footer.png" alt="" class="footer_img">
-            <h3 class="footer_logo">Вітаємо у нашому клані</h3>
-            <p class="footer_text">Твій Банші вже в дорозі.
-                <br> Скоро побачимось на Пандорі.
-            </p>
-        </div>
+        <img src="./img/in-script-3.png" alt="" class="footer_img">
     </footer>
 
 
     <script src="./js/modal.js"></script>
+    <script src="./js/welcome-modal.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </body>
 </html>
